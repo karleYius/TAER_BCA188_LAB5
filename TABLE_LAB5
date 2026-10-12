@@ -1,0 +1,5 @@
+| Knob Position | ADC Reading | PWM Duty | Expected Result |
+|---------------|-------------|----------|-----------------|
+| LOW           | 12          | ~0       | PWM LED OFF (dim) |
+| MIDDLE        | 2057        | ~128     | PWM LED medium |
+| HIGH          | 4090        | ~255     | PWM LED bright |
